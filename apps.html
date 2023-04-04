@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" id="heading">
+            <div class="col-lg-1 col-md-1 col-1"></div>
+            <div class="col-lg-7 col-md-7 col-7" style="width: 70% ;float: left;">
+                <input type="text" class="search" placeholder="Search apps, videos, movies and more">
+            </div>
+            <div class="col-lg-3 col-md-3 col-3">
+                <button class="btn btn-lg btn-primary"
+                    style="height: 40px; margin: 10px 0px 10px 0px;justify-content: center;">Search</button>
+            </div>
+
+            <div class="col-lg-1 col-md-1 col-1" style="width: 10% ;float: left;padding-top: 7px;cursor: pointer;">
+                <img src=" icons8-male-user-40 (1).png">
+            </div>
+        </div>
+        <div class="secondPart">
+            <div class="roww">
+                <div id="menuside">
+                    <div class="roww" id="home" onclick="home()">
+                        <img src="icons8-home-40.png">
+                        <h6
+                            style="background-color:transparent;border-bottom-left-radius:10px;border-bottom-right-radius:10px;">
+                            Home</h6>
+                    </div>
+                    <div class="roww" id="app" onclick="apps()" style="background-color: rgb(57, 76, 199); color: white;">
+                        <img src="icons8-apps-40.png">
+                        <h6
+                            style="background-color:transparent;border-bottom-left-radius:10px;border-bottom-right-radius:10px;">
+                            Apps</h6>
+                    </div>
+                    <div class="roww" id="gaming" onclick="game()">
+                        <img src="icons8-game-controller-40.png">
+                        <h6
+                            style="background-color:transparent;border-bottom-left-radius:10px;border-bottom-right-radius:10px;">
+                            Gaming</h6>
+                    </div>
+                    <div class="roww" style="height: 160px;"></div>
+                    <div class="roww" id="gaming">
+                        <img src="icons8-book-shelf-40.png">
+                        <h6
+                            style="background-color:transparent;border-bottom-left-radius:10px;border-bottom-right-radius:10px;">
+                            Library</h6>
+                    </div>
+
+                    <div class="roww" id="gaming">
+                        <img src="icons8-inquiry-40.png">
+                        <h6
+                            style="background-color:transparent;border-bottom-left-radius:10px;border-bottom-right-radius:10px;">
+                            Help</h6>
+                    </div>
+                </div>
+                <div class="col-lg-11 col-md-11 col-11" id="mainside">
+                    <div class="row" id="appImage">
+
+                    </div>
+                    <!-- slide -->
+                    <div class="row" id="smallimg" style="height: 150px; width: 100%;">
+                        <div class="col-lg-3 col-3" id="innerImage1" onclick="fun('1')"><img
+                                src="Lively-Wallpaper.png">
+                        </div>
+                        <div class="col-lg-3 col-3" id="innerImage2" onclick="fun('2')"><img
+                                src="DSDOU3CKQNAUPNV2H5PZPJ4D4E.jpg">
+                        </div>
+                        <div class="col-lg-3 col-3" id="innerImage3" onclick="fun('3')"><img src="Auto-Change-Wallpaper-Daily-in-Windows-11.webp">
+                        </div>
+                        <div class="col-lg-3 col-3" id="innerImage4" onclick="fun('4')"><img
+                                src="114979-microsoft-surface-pro-3-tablet-gen-3-laplet-intel-table-blue-interface-review.jpg"></div>
+                    </div><br><br><br>
+                    <br><br>
+                    <!-- 1st app -->
+                    <div class="row"><br><br>
+                        <h3>Top free apps</h3>
+                    </div>
+                    <div class="row" style="margin-top: 15px;background-color: rgb(0, 255, 17);">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="row" id="L1whats" onclick="func('1')">
+                                <div class="col-lg-4 col-md-4 col-4">
+                                    <img src="images (1).png">
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-4">
+                                    <h6>WhatsApp</h6>
+                                    <p>Social</p>
+
+                                    <div class="row" id="star">
+                                        <div class="col-lg-2 col-md-2 col-2"><img
+                                                src="icons8-star-filled-18.png"></div>
+                                        <div class="col-lg-2 col-md-2 col-2"><img
+                                                src="icons8-star-filled-18.png"></div>
+                                        <div class="col-lg-2 col-md-2 col-2"><img
+                                                src="icons8-star-filled-18.png"></div>
+                                        <div class="col-lg-2 col-md-2 col-2"><img
+                                                src="icons8-star-filled-18.png"></div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-4">
+                                    <p>Installed</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="row" id="L1insta" onclick="func('2')">
+                                <div class="col-lg-4 col-4">
+                                    <img
+                                        src="png-transparent-logo-computer-icons-instagram-logo-instagram-logo-miscellaneous-text-trademark.png">
+                                </div>
+                                <div class="col-lg-4 col-4">
+                                    <h6>Instagram</h6>
+                                    <p>Social</p>
+                                    <div class="star">
+                                        *******
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-4">
+                                    <p>Free</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="row" id="L1net" onclick="func('3')">
+                                <div class="col-lg-4 col-4">
+                                    <img src="download.jpg">
+                                </div>
+                                <div class="col-lg-4 col-4">
+                                    <h6>Netflix</h6>
+                                    <p>Social</p>
+                                    <div class="star">
+                                        *******
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-4">
+                                    <p>Installed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2nd app -->
+                    <div class="row" style="padding-top: 10px;">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="row" id="L2telli" onclick="func('4')">
+                                <div class="col-lg-4 col-4">
+                                    <img src="images (2).png">
+                                </div>
+                                <div class="col-lg-6 col-6">
+                                    <h6>Telegram Desktop</h6>
+                                    <p>Social</p>
+                                    <div class="star">
+                                        *******
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-2">
+                                    <p>Free</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="row" id="L2spotify" onclick="func('5')">
+                                <div class="col-lg-4 col-4">
+                                    <img src="HD-wallpaper-spotify-logo-spotify-logo.jpg">
+                                </div>
+                                <div class="col-lg-6 col-6">
+                                    <h6>Spotify - Music and Podcats</h6>
+                                    <p>Music</p>
+                                    <div class="star">
+                                        *******
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-2">
+                                    <p>Free</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="row" id="L2adobe" onclick="func('6')">
+                                <div class="col-lg-4 col-4">
+                                    <img
+                                        src="images (3).png">
+                                </div>
+                                <div class="col-lg-6 col-6">
+                                    <h6>Adobe Acrobat Reader DC</h6>
+                                    <p>Productivity</p>
+                                    <div class="star">
+                                        *******
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-2">
+                                    <p>Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- game -->
+                    <div class="row" style="margin-top: 15px;">
+                        <h3>Top free games</h3>
+                    </div>
+                    <div class="row" id="game">
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <div class="row mic">
+                                <div class="row" id="micImage"><img src="a76c2261531e5f246143641490a8f0e2.jpg"></div>
+                                <div class="roww" id="micIns">
+                                    <h6>Microsoft Solitaire Collection</h6>
+                                    <p>Card & board +2</p>
+                                    <h6>****** 13k</h6>
+                                    <p style="padding-top: 10px;">Installed</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <div class="row mic">
+                                <div class="roww" id="micImage"><img src="images (1).jpg"></div>
+                                <div class="roww" id="micIns">
+                                    <h6>Roblox</h6>
+                                    <p>Action and Adventure +1</p>
+                                    <h6>****** 13k</h6>
+                                    <p style="padding-top: 10px;">Free</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <div class="row mic">
+                                <div class="roww" id="micImage"><img
+                                        src="HD-wallpaper-fire-fire-game-gamer-mobile-gaming.jpg"></div>
+                                <div class="roww" id="micIns">
+                                    <h6>Asphalt</h6>
+                                    <p>Racing and flying +2</p>
+                                    <h6>****** 65k</h6>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <div class="row mic">
+                                <div class="roww" id="micImage"><img src="v7fSJC.webp"></div>
+                                <div class="roww" id="micIns">
+                                    <h6>Hill Climb Racing</h6>
+                                    <p>Racing and flying +2</p>
+                                    <h6>****** 13k</h6>
+                                    <p style="padding-top: 10px;">Free</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <div class="row mic">
+                                <div class="roww" id="micImage"><img src="download (1).jpg"></div>
+                                <div class="roww" id="micIns">
+                                    <h6>Candy Crush Saga</h6>
+                                    <p>Puzzle & trivia</p>
+                                    <h6>****** 13k</h6>
+                                    <p style="padding-top: 10px;">Installed</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-2">
+                            <div class="row mic">
+                                <div class="roww" id="micImage"><img src="925888429s.png"></div>
+                                <div class="roww" id="micIns">
+                                    <h6>Asphalt 8:Airborne</h6>
+                                    <p>CRacing and flying +2</p>
+                                    <h6>****** 13k</h6>
+                                    <p style="padding-top: 10px;">Owned</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- banner -->
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-12" id="banner">
+                            <div class="row" style="height: 30px;"></div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 col-12" style="background-color: brown; color: white;">
+                                    <div class="row" style="margin: 100px 0px 90px 20px; background-color:brown;">
+                                        <h4 style="background-color: brown;">Essential apps</h4>
+                                        <p style="background-color: brown;">Take your Windows experience to new heights
+                                            with these musk-have apps</p>
+                                        <button type="button" class="btn btn-lg"
+                                            style="background-color: rgb(167, 112, 112);">See all</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-6" style="background-color: brown;">
+                                    <div class="row bannerdivs">
+                                        <div class="row" id="bannerImage"><img src="download (2).jpg"></div>
+                                        <div class="roww" id="bannerIns">
+                                            <h6>Adobe Acrobat Reader DC</h6>
+                                            <p>Productivity</p>
+                                            <h6>****** 1k</h6>
+                                            <p style="padding-top: 10px;">Free</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-6" style="background-color: brown;">
+                                    <div class="row bannerdivs">
+                                        <div class="row" id="bannerImage"><img src="download (2).jpg"></div>
+                                        <div class="roww" id="bannerIns">
+                                            <h6>Dolby Access</h6>
+                                            <p>Entertainment</p>
+                                            <h6>****** 13k</h6>
+                                            <p style="padding-top: 10px;">Free</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-6" style="background-color: brown;">
+                                    <div class="row bannerdivs">
+                                        <div class="row" id="bannerImage"><img src="download (2).jpg"></div>
+                                        <div class="roww" id="bannerIns">
+                                            <h6>Adobe Express</h6>
+                                            <p>Multimedia Design</p>
+                                            <h6>****** 13k</h6>
+                                            <p style="padding-top: 10px;">Free</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-6" style="background-color: brown;">
+                                    <div class="row bannerdivs">
+                                        <div class="row" id="bannerImage"><img src="download (2).jpg"></div>
+                                        <div class="roww" id="bannerIns">
+                                            <h6>CorelDRAW Graphics Suits</h6>
+                                            <p>Multimedia Design</p>
+                                            <h6>****** 13k</h6>
+                                            <p style="padding-top: 10px;">Free</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="height: 30px;"></div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:20px;">
+                        <div class="col-lg-12">
+                            <h3>Music Streaming apps</h3>
+                        </div>
+                    </div>
+                    <!-- Music -->
+                    <div class="row" id="music">
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <div class="row musics">
+                                <div class="row" id="musicImage"><img src="a76c2261531e5f246143641490a8f0e2.jpg"></div>
+                                <div class="roww" id="musicIns">
+                                    <h6>Spotify - Music & Podcasts</h6>
+                                    <p>Music</p>
+                                    <h6>****** 13k</h6>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <div class="row musics">
+                                <div class="roww" id="musicImage"><img src="download (3).jpg"></div>
+                                <div class="roww" id="musicIns">
+                                    <h6>iTunes</h6>
+                                    <p>Music</p>
+                                    <h6>****** 13k</h6>
+                                    <p style="padding-top: 10px;">Installed</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <div class="row musics">
+                                <div class="roww" id="musicImage"><img src="download (4).jpg"></div>
+                                <div class="roww" id="musicIns">
+                                    <h6>Amazon Music</h6>
+                                    <p>Music</p>
+                                    <h6>****** 13k</h6>
+                                    <p style="padding-top: 10px;">Installed</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <div class="row musics">
+                                <div class="roww" id="musicImage"><img src="download (5).jpg"></div>
+                                <div class="roww" id="musicIns">
+                                    <h6>SoundCloud - Play Music</h6>
+                                    <p>Music</p>
+                                    <h6>****** 13k</h6>
+                                    <p style="padding-top: 10px;">Installed</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <div class="row musics">
+                                <div class="roww" id="musicImage"><img src="download (6).jpg"></div>
+                                <div class="roww" id="musicIns">
+                                    <h6>Tunein Radio</h6>
+                                    <p>Music</p>
+                                    <h6>****** 13k</h6>
+                                    <p style="padding-top: 10px;">Installed</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-2">
+                            <div class="row musics">
+                                <div class="roww" id="musicImage"><img src="a76c2261531e5f246143641490a8f0e2.jpg"></div>
+                                <div class="roww" id="musicIns">
+                                    <h6>FluentCast</h6>
+                                    <p>Music</p>
+                                    <h6>****** 13k</h6>
+                                    <p style="padding-top: 10px;">Installed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:20px;">
+                        <div class="col-lg-12">
+                            <h3>Best Selling Games</h3>
+                        </div>
+                    </div>
+                    <!-- Selling -->
+                    <div class="row" id="selling">
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <div class="row sell">
+                                <div class="row" id="sellImage"><img src="a76c2261531e5f246143641490a8f0e2.jpg"></div>
+                                <div class="roww" id="sellIns">
+                                    <h6>Minecraft:Java &...</h6>
+                                    <p>Action & adventure</p>
+                                    <h6>****** 13k</h6>
+                                    <p style="padding-top: 10px;">Installed</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <div class="row sell">
+                                <div class="roww" id="sellImage"><img src="download (3).jpg"></div>
+                                <div class="roww" id="sellIns">
+                                    <h6>WSOP Poker: Texas Holdem Game</h6>
+                                    <p>Casino</p>
+                                    <h6>****** 13k</h6>
+                                    <p style="padding-top: 10px;">Installed</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <div class="row sell">
+                                <div class="roww" id="sellImage"><img src="download (4).jpg"></div>
+                                <div class="roww" id="sellIns">
+                                    <h6>March of Empires:War of Lords</h6>
+                                    <p>Stategy</p>
+                                    <h6>****** 13k</h6>
+                                    <p style="padding-top: 10px;">Installed</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <div class="row sell">
+                                <div class="roww" id="sellImage"><img src="download (5).jpg"></div>
+                                <div class="roww" id="sellIns">
+                                    <h6>Asphalt 9:Legends</h6>
+                                    <p>Racing & flying +2</p>
+                                    <h6>****** 13k</h6>
+                                    <p style="padding-top: 10px;">Installed</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <div class="row sell">
+                                <div class="roww" id="sellImage"><img src="download (6).jpg"></div>
+                                <div class="roww" id="sellIns">
+                                    <h6>War Planet Online:Global Conquest</h6>
+                                    <p>Strategy</p>
+                                    <h6>****** 13k</h6>
+                                    <p style="padding-top: 10px;">Installed</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-2">
+                            <div class="row sell">
+                                <div class="roww" id="sellImage"><img src="a76c2261531e5f246143641490a8f0e2.jpg"></div>
+                                <div class="roww" id="sellIns">
+                                    <h6>Candy Crush Online:Global Conquest</h6>
+                                    <p>Puzzle & trivia</p>
+                                    <h6>****** 13k</h6>
+                                    <p style="padding-top: 10px;">Installed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- banner2 -->
+                    <div class="row" style="border-radius: 20px;">
+                        <div class="col-lg-12 col-md-12 col-12" id="banner">
+                            <div class="row" style="height: 30px;"></div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 col-12"
+                                    style="background-color: rgb(22, 63, 15);color: white;">
+                                    <div class="row"
+                                        style="margin: 100px 0px 90px 20px; background-color:rgb(22, 63, 15);">
+                                        <h4 style="background-color: rgb(22, 63, 15);">Essential apps</h4>
+                                        <p style="background-color: rgb(22, 63, 15);">Take your Windows experience to
+                                            new heights
+                                            with these musk-have apps</p>
+                                        <button type="button" class="btn btn-lg"
+                                            style="background-color: rgb(81, 98, 79);">See all</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-6" style="background-color: rgb(22, 63, 15);">
+                                    <div class="row bannerdivs">
+                                        <div class="row" id="bannerImage"><img src="download (2).jpg"></div>
+                                        <div class="roww" id="bannerIns">
+                                            <h6>Microsoft Solitaire Collection</h6>
+                                            <p>Card & board +2</p>
+                                            <h6>****** 13k</h6>
+                                            <!-- <div class="row" id="star">
+                                                <div class="col-lg-2 col-md-2 col-2"><img
+                                                        src="icons8-star-filled-12.png"></div>
+                                                <div class="col-lg-2 col-md-2 col-2"><img
+                                                        src="icons8-star-filled-17.png"></div>
+                                                <div class="col-lg-2 col-md-2 col-2"><img
+                                                        src="icons8-star-filled-17.png"></div>
+                                                <div class="col-lg-2 col-md-2 col-2"><img
+                                                        src="icons8-star-filled-17.png"></div>
+                                                <div class="col-lg-2 col-md-2 col-2"><img
+                                                        src="icons8-star-filled-17.png"></div>
+                                                <div>4.3(15050)</div>
+                                            </div> -->
+                                            <p style="padding-top: 10px;">Installed</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-6" style="background-color: rgb(22, 63, 15);">
+                                    <div class="row bannerdivs">
+                                        <div class="row" id="bannerImage"><img src="download (2).jpg"></div>
+                                        <div class="roww" id="bannerIns">
+                                            <h6>Microsoft Solitaire Collection</h6>
+                                            <p>Card & board +2</p>
+                                            <h6>****** 13k</h6>
+                                            <p style="padding-top: 10px;">Installed</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-6" style="background-color: rgb(22, 63, 15);">
+                                    <div class="row bannerdivs">
+                                        <div class="row" id="bannerImage"><img src="download (2).jpg"></div>
+                                        <div class="roww" id="bannerIns">
+                                            <h6>Microsoft Solitaire Collection</h6>
+                                            <p>Card & board +2</p>
+                                            <h6>****** 13k</h6>
+                                            <p style="padding-top: 10px;">Installed</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-6" style="background-color: rgb(22, 63, 15);">
+                                    <div class="row bannerdivs">
+                                        <div class="row" id="bannerImage"><img src="download (2).jpg"></div>
+                                        <div class="roww" id="bannerIns">
+                                            <h6>Microsoft Solitaire Collection</h6>
+                                            <p>Card & board +2</p>
+                                            <h6>****** 13k</h6>
+                                            <p style="padding-top: 10px;">Installed</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="height: 30px;"></div>
+                        </div>
+                    </div>
+                    <!-- last -->
+                    <div class="row" style="margin-top:20px;">
+                        <div class="col-lg-12">
+                            <h3>Best Selling Games</h3>
+                        </div>
+                    </div>
+
+                    <div class="row" id="lastDiv">
+                        <div class="col-lg-4 col-md-4 col-4 last">
+                            <img src="8-Classic-xlarge.webp">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-4 last">
+                            <img src="download (7).jpg">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-4 last">
+                            <img src="6a95add75de3837e2c34464967765f2f.jpg">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function fun(n) {
+        switch (n) {
+            case '1':
+                document.getElementById('appImage').style.backgroundImage = "url(Lively-Wallpaper.png)";
+                console.log("yess its working1");
+                break;
+
+            case '2':
+
+                document.getElementById('appImage').style.backgroundImage = "url(DSDOU3CKQNAUPNV2H5PZPJ4D4E.jpg)";
+                console.log("yess its working2");
+                break;
+
+            case '3':
+                document.getElementById('appImage').style.backgroundImage = "url(Auto-Change-Wallpaper-Daily-in-Windows-11.webp)";
+                break;
+
+            case '4':
+                document.getElementById('appImage').style.backgroundImage = "url(114979-microsoft-surface-pro-3-tablet-gen-3-laplet-intel-table-blue-interface-review.jpg)";
+                break;
+        }
+    }
+        function fun1() {
+            document.getElementById('appImage').setAttribute("style",
+                "background: url(Lively-Wallpaper.png); transition:0.5s;background-repeat: no-repeat;background-size: 100% 100%; "
+            );
+            console.log("1");
+        }
+        function fun2() {
+            document.getElementById('appImage').setAttribute("style",
+                "background: url(DSDOU3CKQNAUPNV2H5PZPJ4D4E.jpg); transition:0.5s;background-repeat: no-repeat;background-size: 100% 100%;  "
+            );
+            console.log("2");
+        }
+        function fun3() {
+            document.getElementById('appImage').setAttribute("style",
+                "background: url(Auto-Change-Wallpaper-Daily-in-Windows-11.webp); transition:0.5s; background-repeat: no-repeat;background-size: 100% 100%; "
+            );
+            console.log("3");
+        }
+        function fun4() {
+            document.getElementById('appImage').setAttribute("style",
+                "background: url(114979-microsoft-surface-pro-3-tablet-gen-3-laplet-intel-table-blue-interface-review.jpg); transition:0.5s;background-repeat: no-repeat;background-size: 100% 100%; "
+            );
+            console.log("4");
+        }
+        setInterval(fun1, 2000);
+        setInterval(fun2, 4000);
+        setInterval(fun3, 6000);
+        setInterval(fun4, 8000);
+
+    function func(n) {
+        switch (n) {
+            case '1':
+                window.location.assign("appSecondPage.html");
+                console.log("function works!")
+                break;
+
+            case '2':
+                window.location.assign("insta.html");
+                document.querySelectorAll('#changInsta').style.backgroundImage.url("png-transparent-logo-computer-icons-instagram-logo-instagram-logo-miscellaneous-text-trademark")
+                console.log("function works!")
+                break;
+
+            case '3':
+                window.location.assign("netflix.html");
+                console.log("function works!")
+                break;
+
+            case '4':
+                window.location.assign("tele.html");
+                console.log("function works!")
+                break;
+
+            case '5':
+                window.location.assign("shotify.html");
+                console.log("function works!")
+                break;
+
+            case '6':
+                window.location.assign("prime.html");
+                console.log("function works!")
+                break;
+        }
+    }
+    function home(){
+        window.location.assign("index.html");
+        document.getElementById("home").setAttribute("style", 
+         "backgroundColor:rgb(57, 76, 199), color:white;"
+        )
+    }
+    function apps(){
+        window.location.assign("apps.html");
+        document.getElementById("app").setAttribute("style", 
+         "backgroundColor:rgb(57, 76, 199), color:white;"
+        )
+    }
+    function game(){
+        window.location.assign("game.html");
+        document.getElementById("game").setAttribute("style", 
+         "backgroundColor:rgb(57, 76, 199), color:white;"
+        )
+    }
+</script>
+
+</html>

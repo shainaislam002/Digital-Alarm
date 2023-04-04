@@ -1,0 +1,348 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(245, 245, 245);
+}
+
+#heading {
+    height: 60px;
+    background-color: rgb(245, 245, 245);
+}
+
+#heading input {
+    width: 90%;
+}
+
+#menuside {
+    height: 620px;
+    width: 10%;
+    float: left;
+    /* position: relative; */
+}
+
+#menuside {
+    position: fixed;
+    margin-top: -5px;
+    z-index: 200;
+}
+
+#home,
+#app,
+#gaming {
+    min-height: 70px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 12px;
+}
+#mainside {
+    min-height: 550px;
+    width: 100%;
+    float: left;
+    border-radius: 10px;
+    margin-left: 11%;
+}
+
+#mainside img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.search {
+    background-color: white;
+    width: 70%;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 2px solid rgb(163, 162, 162);
+    margin-left: 40px;
+    margin-top: 7px;
+    outline: none;
+}
+
+#smallimg {
+    position: absolute;
+    top: 460px;
+    z-index: 200;
+    background-color: transparent;
+    /* position: absolute;
+ top:10%;
+ left:1%;
+ transform: translate(-50%,-50%);
+ width:100%; */
+}
+
+#innerImage1,
+#innerImage2,
+#innerImage3,
+#innerImage4 {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#mainImage {
+    height: 550px;
+    width: 100%;
+    background: url("super-mario-game_copy_-_h_2017.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-image: linear-gradient(to right, black,rgb(39, 35, 35,0)); */
+}
+
+#L1whats,
+#L1insta,
+#L1net {
+    height: 120px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 4px gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#L2telli,
+#L2spotify,
+#L2adobe {
+    height: 120px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 4px gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#L1whats,
+#L1insta,
+#L1net,
+#L2telli,
+#L2spotify,
+#L2adobe,
+.col {
+    padding: 5px 0px 5px 0px;
+}
+
+#star {
+    width: 100%;
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#star img {
+    height: 100%;
+    width: 100%;
+}
+
+#game,
+#music,
+#selling {
+    margin-top: 15px;
+    min-height: 500px;
+}
+
+.mic,
+.musics,
+.sell {
+    height: 450px;
+    width: 100%;
+    margin: 0px 0px;
+    border: 2px solid rgb(209, 207, 207);
+    border-radius: 5px;
+}
+
+#micImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.mic,
+#micImage {
+    width: 90%;
+    margin: 5px 10px;
+    border-radius: 10px;
+}
+
+.mic,
+#micIns {
+    width: 90%;
+    margin: 5px 10px;
+}
+
+/* ///2 */
+
+#musicImage img {
+    width: 100%;
+    height: 60%;
+}
+
+#musicImage {
+    width: 90%;
+    margin: 5px 10px;
+}
+
+.musics,
+#musicIns {
+    width: 90%;
+    margin: 5px 10px;
+}
+
+/* ///3 */
+#sellImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.sell,
+#sellImage {
+    width: 90%;
+    margin: 5px 10px;
+}
+
+.sell,
+#sellIns {
+    width: 90%;
+    margin: 5px 10px;
+}
+
+#banner {
+    min-height: 530px;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.last {
+    height: 220px;
+    width: 100%;
+}
+
+#lastDiv {
+    height: 250px;
+    margin-top: 20px;
+}
+
+.bannerdivs {
+    min-height: 400px;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    border: 2px solid rgb(209, 207, 207);
+    border-radius: 5px;
+}
+
+#banner img {
+    width: 40%;
+    margin: 5px 10px;
+}
+
+#bannerIns {
+    width: 90%;
+    margin: 5px 10px;
+}
+
+#bannerImage img {
+    width: 100%;
+    height: 70%;
+    padding-right: 20px;
+}
+
+#bannerImage {
+    height: 50%;
+    width: 90%;
+    margin: 15px 10px;
+}
+
+#rating {
+    margin-left: 1px;
+}
+
+#ratingstar img {
+    height: 60%;
+    width: 60%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#star {
+    height: 30px;
+    width: 100%;
+    margin: 0px 20px 20px 20px;
+}
+
+.Star {
+    height: 20px;
+    width: 20px;
+    /* margin:0px 0px 20px 10px;
+    float:left; */
+
+}
+
+.star>img {
+    height: 100%;
+    width: 100%;
+}
+
+#home:hover {
+    background-color: rgb(57, 76, 199);
+}
+#app:hover {
+    background-color: rgb(57, 76, 199);
+}
+
+#gaming:hover {
+    background-color: rgb(57, 76, 199);
+}
+
+#innerImage1>img:hover {
+    border: 10px solid white;
+    transition: 0.5s;
+}
+
+#innerImage2>img:hover {
+    border: 10px solid white;
+        transition: 0.5s;
+}
+
+#innerImage3>img:hover {
+    border: 10px solid rgb(255, 255, 255);
+        transition: 0.5s;
+}
+
+#innerImage4>img:hover {
+    border: 10px solid white;
+        transition: 0.5s;
+}
+
+@media(max-width:470px) {
+    #mainImage {
+        width: 130%;
+    }
+}
+
+@media(max-width:609px) {
+    #menuside {
+        display: none;
+    }
+}
+
+@media(max-width:436px) {
+    #innerImage1 {
+        height: 60px;
+        width: 100%;
+
+    }
+
+    #innerImage2 {
+        height: 60px;
+        width: 100%;
+    }
+
+    #innerImage3 {
+        height: 60px;
+        width: 100%;
+    }
+
+    #innerImage4 {
+        height: 60px;
+        width: 100%;
+    }
+}
